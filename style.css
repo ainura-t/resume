@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+}
+
+body p{ 
+   margin: 10px 30px;
+}
+.block{
+  
+    margin: 15px 10px;
+    box-shadow: lightgray 0 0 8px 8px;
+    padding-bottom: 20px;
+}
+.personal{
+    color: grey;
+}
+hr{
+    border: 0;
+    border-top: solid 1px #eee;
+    width: 90%;   
+}
+
+
+.avatar{
+    background-image: url("https://verge.zp.ua/wp-content/uploads/2020/04/mad.jpg");    
+    background-size: cover;
+    height: 335px;
+    position: relative;
+}
+.avatar div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 40px;
+    color: black;
+}
+.fa{
+    color: rgb(23, 161, 161);
+    margin-right: 20px;
+}
+.info{
+    font-size: 20px;
+    padding-top: 20px;
+    color: grey;
+}
+.radio{
+    width: 95%;
+    margin: auto;
+    border-radius: 55px;
+    background-color: #eee ;    
+}
+.fill {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    background-color: lightseagreen;
+    border-radius: 55px;
+}
+.languages .fill{
+    padding: 12px;
+}
+.a{
+    width: 90%;    
+}
+.b{
+    width: 80%;
+}
+.c{
+   width: 75%;    
+}
+.d, .f{
+   width: 50%;
+}
+.lan{
+   padding: 9px;
+}
+.fill .e{
+   width: 100%;
+}
+.g{
+   width: 25%;
+}
+.title{
+    color: grey;
+    font-size: 30px;
+    padding-top: 30px;
+}
+span{
+    color: white;
+    background-color: rgb(23, 161, 161);
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.calendar{
+    color: rgb(23, 161, 161);
+}
+footer{
+    text-align: center;
+    background-color: rgb(23, 161, 161);
+    color: white;
+    padding: 5px 0;
+    
+}
+footer .fa{
+    color: white;
+    margin: 0 5px;
+}
+footer a{
+    color: white;
+}
+@media screen and (min-width: 768px){
+    main{
+       margin: 20px;
+    }
+    .education{
+        margin-top: 20px;
+    }
+    .block{
+        margin: 25px 10px;
+    }
+    .personal{
+        float: left;
+       width: 31%;
+      
+      
+    }
+    .section-wrapper{
+       float: right;
+        width: 67%;
+      
+    }
+    
+    br{
+        clear: both;
+    }
+    
+}
